@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: yder
+Description: Logging library for C applications
+URL: https://github.com/babelouest/yder/issues
+Version: 1.4.8
+Requires: 
+Requires.private: @PKGCONF_REQ_PRIVATE@
+Libs: -L${libdir} -lyder
+Cflags: -I${includedir}
+
