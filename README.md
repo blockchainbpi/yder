@@ -38,7 +38,7 @@ You must install [liborcania](https://github.com/babelouest/orcania) first befor
 Run the cmake script in a subdirectory, example:
 
 ```shell
-$ git clone https://github.com/babelouest/yder.git
+$ git clone https://github.com/blockchainbpi/yder.git
 $ cd yder/
 $ mkdir build
 $ cd build
